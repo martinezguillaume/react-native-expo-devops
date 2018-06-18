@@ -20,7 +20,8 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -a "$TRAVIS_PULL_REQUEST_SLUG" == "martin
   exp publish --release-channel ${TRAVIS_PULL_REQUEST_SHA}
 
   # Comment the PR
-  cd ../.ci
+  pwd
+  cd ./.ci
   yarn
   node index.js
 fi
