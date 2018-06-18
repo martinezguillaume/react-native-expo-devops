@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configure user
-git config --global user.name "Martinez"
+git config --global user.name "martinezguillaume"
 echo -e "machine github.com\n login martinezguillaume\n password $GITHUB_TOKEN" >> ~/.netrc
 
 # Expo auto deployment for PRs
