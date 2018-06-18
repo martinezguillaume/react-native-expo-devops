@@ -11,6 +11,29 @@ exports[`renders correctly 1`] = `
       Object {
         "fontFamily": "space-mono",
       },
+      undefined,
+    ]
+  }
+>
+  Snapshot test!
+</Text>
+`;
+
+exports[`renders red color 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="red"
+  ellipsizeMode="tail"
+  style={
+    Array [
+      undefined,
+      Object {
+        "fontFamily": "space-mono",
+      },
+      Object {
+        "color": "red",
+      },
     ]
   }
 >

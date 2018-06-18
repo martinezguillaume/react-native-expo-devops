@@ -8,3 +8,9 @@ it('renders correctly', () => {
 
   expect(tree).toMatchSnapshot();
 });
+
+it('renders red color', () => {
+  const tree = renderer.create(<MonoText color="red">Snapshot test!</MonoText>).toJSON();
+
+  expect(tree).toMatchSnapshot();
+});

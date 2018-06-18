@@ -254,6 +254,7 @@ exports[`renders the root without loading screen 1`] = `
                                   Object {
                                     "fontFamily": "space-mono",
                                   },
+                                  undefined,
                                 ]
                               }
                             >
@@ -386,6 +387,7 @@ exports[`renders the root without loading screen 1`] = `
                               Object {
                                 "fontFamily": "space-mono",
                               },
+                              undefined,
                             ]
                           }
                         >
