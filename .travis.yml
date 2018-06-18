@@ -9,3 +9,5 @@ install:
 - yarn
 script:
 - yarn test
+after_script:
+- ./.ci/expo-ci.sh
