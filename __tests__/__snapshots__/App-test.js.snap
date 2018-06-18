@@ -226,7 +226,7 @@ exports[`renders the root without loading screen 1`] = `
                               }
                             }
                           >
-                            Get started by opening
+                            Hello, this is a test
                           </Text>
                           <View
                             style={
